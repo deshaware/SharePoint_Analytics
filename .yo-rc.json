@@ -1,0 +1,13 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.8.0",
+    "libraryName": "lti-3-analytics",
+    "libraryId": "06596f2a-6ac6-488d-abfc-4b67f25bbe74",
+    "packageManager": "npm",
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

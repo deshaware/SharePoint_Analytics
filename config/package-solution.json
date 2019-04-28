@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "lti-3-analytics-client-side-solution",
+    "id": "06596f2a-6ac6-488d-abfc-4b67f25bbe74",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "6f6c7604-820e-403a-965c-b092ba23d57d",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/lti-3-analytics.sppkg"
+  }
+}

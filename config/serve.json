@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://lti3.sharepoint.com/SitePages/test.aspx",
+      "customActions": {
+        "d892251c-7e7b-4e69-b1e9-d991b4b2504c": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "googleanalytics": {
+      "pageUrl": "https://lti3.sharepoint.com/SitePages/test.aspx",
+      "customActions": {
+        "d892251c-7e7b-4e69-b1e9-d991b4b2504c": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
